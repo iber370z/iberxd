@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Mensaje Especial</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffeef2;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 240, 245, 0.9);
+            padding: 20px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 15px rgba(255, 182, 193, 0.5);
+        }
+        h1 {
+            color: #ff69b4;
+            text-shadow: 2px 2px 5px #ffb6c1;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Un Mensaje Especial Para Ti 💖</h1>
+        <p>Desde que te conocí, cada momento ha sido increíble. ¿Te gustaría ser mi pareja y hacer juntos muchos recuerdos hermosos? 😊</p>
+        <form action="https://formspree.io/f/your_form_id" method="POST">
+            <input type="hidden" name="email" value="iberarroyo71@gmail.com">
+            <button class="btn" type="submit" name="response" value="Sí, quiero">Sí, quiero</button>
+            <button class="btn" type="submit" name="response" value="Lo pensaré">Lo pensaré</button>
+        </form>
+    </div>
+</body>
+</html>
